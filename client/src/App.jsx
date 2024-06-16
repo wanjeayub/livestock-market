@@ -9,6 +9,9 @@ import { Orders } from "./pages/Orders";
 import { AdminDashboard } from "./pages/AdminDashboard";
 import { Help } from "./pages/Help";
 
+import { Shop } from "./pages/Shop";
+import { ProductDetails } from "./pages/ProductDetails";
+
 function App() {
   return (
     <>
@@ -18,6 +21,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/cart" element={<Orders />} />
+          <Route path="/product-details" element={<ProductDetails />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/sign-up" element={<SignUp />} />

@@ -3,7 +3,7 @@ import Logo from "../assets/images/lmarket-logo.png";
 
 export const Header = () => {
   return (
-    <header className="flex flex-row items-center justify-between p-4 px-7 mx-auto ">
+    <header className="flex flex-row items-center justify-between p-4 px-7 mx-auto shadow-md mb-4 ">
       <div className="main ">
         <Link to={"/"}>
           <div className="logo">
