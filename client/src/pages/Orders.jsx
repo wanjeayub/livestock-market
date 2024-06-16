@@ -1,5 +1,5 @@
 import goatImage from "../assets/images/licensed-image.jpg";
-import { FaHamburger, FaTrash } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
 
 export const Orders = () => {
   return (
